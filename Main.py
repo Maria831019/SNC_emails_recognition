@@ -3,7 +3,7 @@ from Decision import CaseText
 import conf
 
 if __name__ == '__main__':
-    #mainObject = BasicSNC('Maria.Kowalska@opuscapita.com', 'Con-essen1', 'https://opusflowtest.service-now.com/')
+    
     mainObject = BasicSNC(conf.usr, conf.pas, 'https://opusflowtest.service-now.com/')
 
     #calls = mainObject.queue('new_call',
